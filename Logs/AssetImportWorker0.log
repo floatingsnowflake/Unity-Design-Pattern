@@ -1,0 +1,1533 @@
+Using pre-set license
+Built from '2022.2/china_unity/release' branch; Version is '2022.2.14f1c1 (30c341677286) revision 3195713'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22624) 64bit Enterprise' Language: 'zh' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\1Unity\UnityEditor\2022.2.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/GitHubProjects/Unity-Design-Pattern
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+11111
+Successfully changed project path to: D:/GitHub/GitHubProjects/Unity-Design-Pattern
+D:/GitHub/GitHubProjects/Unity-Design-Pattern
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32184] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3407392259 [EditorId] 3407392259 [Version] 1048832 [Id] WindowsEditor(7,树形图设计者) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32184] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3407392259 [EditorId] 3407392259 [Version] 1048832 [Id] WindowsEditor(7,树形图设计者) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 63.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.14f1c1 (30c341677286)
+[Subsystems] Discovering subsystems at path D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/GitHubProjects/Unity-Design-Pattern/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     8074 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/1Unity/UnityEditor/2022.2.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018992 seconds.
+- Loaded All Assemblies, in  0.532 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1046 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (314ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+				TypeCache.Initialize (179ms)
+					TypeCache.ScanAssembly (178ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1161ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.185 seconds
+Refreshing native plugins compatible for Editor in 38.40 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (381ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (783ms)
+			LoadAssemblies (548ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+				TypeCache.Initialize (324ms)
+					TypeCache.ScanAssembly (320ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 45.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (84.6 KB). Loaded Objects now: 3008.
+Memory consumption went from 100.8 MB to 100.7 MB.
+Total: 7.364900 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.253700 ms MarkObjects: 6.658800 ms  DeleteObjects: 0.166400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45193.725323 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern
+  artifactKey: Guid(f349b81f0b98d9b4fb895cb218e5aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern using Guid(f349b81f0b98d9b4fb895cb218e5aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c95cdab333ae941a90635f7b922540') in 0.008284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.370444 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/README.md
+  artifactKey: Guid(23cc684e13f68a6498d1a583369d8713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/README.md using Guid(23cc684e13f68a6498d1a583369d8713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bc7ab5f2af18dfe747dc144dbd87f0') in 0.016622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 482.803191 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2
+  artifactKey: Guid(7dbe42ec5a9c61b45bdb55d3298f7812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2 using Guid(7dbe42ec5a9c61b45bdb55d3298f7812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a51448e9fd29a632dfc6687117a66e') in 0.001427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.421429 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example1
+  artifactKey: Guid(d8ef10013bde1ff449b915e91ce89072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example1 using Guid(d8ef10013bde1ff449b915e91ce89072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06137c403c9c85e13dfcdedf5f7abc3d') in 0.000659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.151870 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3
+  artifactKey: Guid(e24ed5cf749038446b91f8b851de617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3 using Guid(e24ed5cf749038446b91f8b851de617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9654abdf3a55f8b8e745f286ef555983') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.383423 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example4
+  artifactKey: Guid(086a9ad1eca6efa45977620e876a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example4 using Guid(086a9ad1eca6efa45977620e876a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2978462003834ead501a7e7179002958') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.254889 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example1/CommandExample1.cs
+  artifactKey: Guid(5f887a8fbd8adfd4689dc340bf986914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example1/CommandExample1.cs using Guid(5f887a8fbd8adfd4689dc340bf986914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ba6092b7e06f5228d3e92568000d45') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.290339 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example1/TestCommandExample1.unity
+  artifactKey: Guid(7d9fa9990c7338c4286b66ab93a432b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example1/TestCommandExample1.unity using Guid(7d9fa9990c7338c4286b66ab93a432b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff4e9f34213f6f39d1605abce54c431') in 0.000793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 957.808935 seconds.
+  path: Assets/Editor/MediationAdapterDependencies.xml
+  artifactKey: Guid(50509399e20489b4cbe0a4c05c78ef3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/MediationAdapterDependencies.xml using Guid(50509399e20489b4cbe0a4c05c78ef3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2442d0497c93d52db535ed3c7e4b783') in 0.137633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.069232 seconds.
+  path: Assets/Behavioral Patterns/Chain of Responsibility Pattern/README.md
+  artifactKey: Guid(62efc7bff6903b248b0ff1e722310259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Chain of Responsibility Pattern/README.md using Guid(62efc7bff6903b248b0ff1e722310259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fa51cb99cd2ccf1f5db4b19d0f668b8') in 0.005833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Behavioral Patterns/Chain of Responsibility Pattern/Example2/ChainOfResponsibilityExample2.cs
+  artifactKey: Guid(08f1ec2236c753c4b97394222c456be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Chain of Responsibility Pattern/Example2/ChainOfResponsibilityExample2.cs using Guid(08f1ec2236c753c4b97394222c456be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd84f98788e4ffa9d8cf7d48d95727b58') in 0.036258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Behavioral Patterns/Observer Pattern/Example1/ObserverExample1.cs
+  artifactKey: Guid(c12caba1cb6a4fc49bd1460526bbc172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Observer Pattern/Example1/ObserverExample1.cs using Guid(c12caba1cb6a4fc49bd1460526bbc172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e827cf8026def22e422d724380438fb') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Structural Patterns/Proxy Pattern/README.md
+  artifactKey: Guid(de3de172e48cbea4096314b1706d569a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Proxy Pattern/README.md using Guid(de3de172e48cbea4096314b1706d569a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfa164ca1125859e4a3fd724b746e53b') in 0.005849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Structural Patterns/Facade Pattern/README.md
+  artifactKey: Guid(16d967973f8fba6469064425965795b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Facade Pattern/README.md using Guid(16d967973f8fba6469064425965795b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06c6dd72448bbcb6117398574a707600') in 0.007198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/Radio.cs
+  artifactKey: Guid(13a2c8a8c7dd942498c84e8594a7d7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/Radio.cs using Guid(13a2c8a8c7dd942498c84e8594a7d7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15510fc01068ca76610786e1ed326c5e') in 0.005920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TestCommandPattern.cs
+  artifactKey: Guid(ed974261bec1f654bbef3a4191d66af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TestCommandPattern.cs using Guid(ed974261bec1f654bbef3a4191d66af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42b98d04bf74e0246b1ba3aad06f79dd') in 0.006930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Behavioral Patterns/Mediator Pattern/Example1/TestMediatorExample1.unity
+  artifactKey: Guid(ee6cd5198e2fbdb41802988520f4242a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Mediator Pattern/Example1/TestMediatorExample1.unity using Guid(ee6cd5198e2fbdb41802988520f4242a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d216926dd06a1fdad937701d2a3330a') in 0.004329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Behavioral Patterns/Interpreter Pattern/Structure/TestInterpreterStructrue.unity
+  artifactKey: Guid(7eda28f465f576c41a0968c092cdfa28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Interpreter Pattern/Structure/TestInterpreterStructrue.unity using Guid(7eda28f465f576c41a0968c092cdfa28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '497537d5fe341d2944767052adcaa475') in 0.005095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Behavioral Patterns/Mediator Pattern/README.md
+  artifactKey: Guid(68fb95267f9fe084c98bf2c242038cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Mediator Pattern/README.md using Guid(68fb95267f9fe084c98bf2c242038cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9962aea8ba0d89398640d4a1a7959def') in 0.005592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Creational Patterns/Builder Pattern/README.md
+  artifactKey: Guid(9f90499aa6ad4184386db79c9ed61efc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Builder Pattern/README.md using Guid(9f90499aa6ad4184386db79c9ed61efc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10dd95c7b802ea334079646739de334d') in 0.004721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3/Command.cs
+  artifactKey: Guid(fb48245b7ca84e84695a50cc2d1f3d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3/Command.cs using Guid(fb48245b7ca84e84695a50cc2d1f3d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbf7041ce7610062e317ccfd07ec8c10') in 0.008612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Behavioral Patterns/Observer Pattern/Example1/TestObserverExample1.unity
+  artifactKey: Guid(45070ac04c4aef14f8f9e0bad7cd09fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Observer Pattern/Example1/TestObserverExample1.unity using Guid(45070ac04c4aef14f8f9e0bad7cd09fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7670d6b5a0b4301d9b2c889d6a9a7ebf') in 0.006523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Behavioral Patterns/Mediator Pattern/Structure/MediatorStructure.cs
+  artifactKey: Guid(032fe11a9cf0d3944ac8781728f7638a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Mediator Pattern/Structure/MediatorStructure.cs using Guid(032fe11a9cf0d3944ac8781728f7638a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44775c4e5436340681d036d1ab86d294') in 0.006970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MobileDependencyResolver/Editor/Google.IOSResolver.dll
+  artifactKey: Guid(a1e8415cfe85469f9aa0aea941166031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MobileDependencyResolver/Editor/Google.IOSResolver.dll using Guid(a1e8415cfe85469f9aa0aea941166031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad6ed6c4296908c43151f33e0fbfc8e3') in 0.014167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/Structure/MementoStructure.cs
+  artifactKey: Guid(5317b1fcfd3edc140865fe1ca4640433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/Structure/MementoStructure.cs using Guid(5317b1fcfd3edc140865fe1ca4640433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a5cd008dec4e9068f0b2f6f2ed0305a') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Structural Patterns/Composite Pattern/README.md
+  artifactKey: Guid(1cc9db3a4d6039a429d3463b4cc54915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Composite Pattern/README.md using Guid(1cc9db3a4d6039a429d3463b4cc54915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a42eea693d1a28d61172c4471f5aa96') in 0.009202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Behavioral Patterns/Chain of Responsibility Pattern/Structure/ChainOfResponsibilityStructure.cs
+  artifactKey: Guid(3735e9dfe4e07ef4699ae6346cfb319f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Chain of Responsibility Pattern/Structure/ChainOfResponsibilityStructure.cs using Guid(3735e9dfe4e07ef4699ae6346cfb319f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdba6930e7e481006f1edf522e2f1c9c') in 0.007915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example1/CommandExample1.cs
+  artifactKey: Guid(5f887a8fbd8adfd4689dc340bf986914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example1/CommandExample1.cs using Guid(5f887a8fbd8adfd4689dc340bf986914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e6e9936b3a4db8cc248413e071dede8') in 0.008603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TurnItAllOff.cs
+  artifactKey: Guid(3485f5b7965d5bc41bfb3bddfd231022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TurnItAllOff.cs using Guid(3485f5b7965d5bc41bfb3bddfd231022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e89a516d70790f95fb1ca5b701bf3f43') in 0.009284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tools/Canvas.prefab
+  artifactKey: Guid(36d9b74c8d9ab0141825245b0c7b1ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tools/Canvas.prefab using Guid(36d9b74c8d9ab0141825245b0c7b1ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5fca2a6172053aea36196fb0e1fee11') in 0.065869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TurnTVOff.cs
+  artifactKey: Guid(21c14de9a6e19934a871a4b79e9fea38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TurnTVOff.cs using Guid(21c14de9a6e19934a871a4b79e9fea38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6bcb97ab308ef75cbb65afcd79d8793') in 0.007165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Behavioral Patterns/Iterator Pattern/Example1/IteratorExample1.cs
+  artifactKey: Guid(d985425a20a770a45b361064dc27f9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Iterator Pattern/Example1/IteratorExample1.cs using Guid(d985425a20a770a45b361064dc27f9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03696b226f4b068dd4bc5ab76af25695') in 0.008957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Game Programming Patterns/Type Object Pattern/README.md
+  artifactKey: Guid(29251969591b08348a3ba3ab38b3f55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Type Object Pattern/README.md using Guid(29251969591b08348a3ba3ab38b3f55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf4cd7c844126773c7998e0505bdd3c4') in 0.007301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/Example2/MementoExample2.unity
+  artifactKey: Guid(76231a1903b6e9f439bb7056f17bc9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/Example2/MementoExample2.unity using Guid(76231a1903b6e9f439bb7056f17bc9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed197e4e50dee884caf34fda037026f') in 0.006367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Creational Patterns/Prototype Pattern/README.md
+  artifactKey: Guid(e3c984f8872e4574d9fbdb0ba805da5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Prototype Pattern/README.md using Guid(e3c984f8872e4574d9fbdb0ba805da5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46c07f2490eb650508238d3313dd0c5e') in 0.010588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Structural Patterns/Decorator Pattern/README.md
+  artifactKey: Guid(1e34d70006fdecc469aee686828e99c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Decorator Pattern/README.md using Guid(1e34d70006fdecc469aee686828e99c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '576f164eeeeb705459b9a99081f17acd') in 0.005931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3/command pattern example2.unity
+  artifactKey: Guid(84db78d1aa884244cb57b98cac903f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3/command pattern example2.unity using Guid(84db78d1aa884244cb57b98cac903f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caf0ac291ec1b8e71a2c5acd397ac563') in 0.006878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3/InputHandler.cs
+  artifactKey: Guid(65852039ecae1544bb206a2d800923b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3/InputHandler.cs using Guid(65852039ecae1544bb206a2d800923b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6357e0eb6e3c80995d63e10e135532c') in 0.008776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/Example2/MementoExample2.cs
+  artifactKey: Guid(cd708282c148b5f4dac11feb16bab49c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/Example2/MementoExample2.cs using Guid(cd708282c148b5f4dac11feb16bab49c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1967501e7b5ab909cbbaee3fe46f2198') in 0.006572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3/MoveCommandReceiver.cs
+  artifactKey: Guid(8b876aa2447a543409330fcc88e0615b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3/MoveCommandReceiver.cs using Guid(8b876aa2447a543409330fcc88e0615b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc7b6a00e40273f10718758c82eb8b7b') in 0.005760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TurnVolumeUp.cs
+  artifactKey: Guid(fb45d24ef8e8a1b4facf6ab5fd0cdb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TurnVolumeUp.cs using Guid(fb45d24ef8e8a1b4facf6ab5fd0cdb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '205b74f1355da771fe0f19a7040797f3') in 0.008369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Structural Patterns/Flyweight Pattern/README.md
+  artifactKey: Guid(1f7e3d8ed3b98264f8cd98ad776e2ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Flyweight Pattern/README.md using Guid(1f7e3d8ed3b98264f8cd98ad776e2ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '531c8deb4635285054fafbfa8c67333d') in 0.005967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TVRemove.cs
+  artifactKey: Guid(e3d805b65eaaf564aa1df0d496026320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TVRemove.cs using Guid(e3d805b65eaaf564aa1df0d496026320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1400051eea776aad9366972d6e153bf') in 0.006708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/IElectronicDevice.cs
+  artifactKey: Guid(183509958bb0db747b0fcca968e3f487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/IElectronicDevice.cs using Guid(183509958bb0db747b0fcca968e3f487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53be285b402612ff2c2f5a6f523a9175') in 0.005986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/TurnVolumeDown.cs
+  artifactKey: Guid(f8d68e8195a8c6c41bc84f599bfd46ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/TurnVolumeDown.cs using Guid(f8d68e8195a8c6c41bc84f599bfd46ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1773a18f2c9b01194e02b3ca8c375287') in 0.006321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MobileDependencyResolver/Editor/mobile-dependency-resolver.txt
+  artifactKey: Guid(85ae9201cbc641ffa2fa8aab6c5e9093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MobileDependencyResolver/Editor/mobile-dependency-resolver.txt using Guid(85ae9201cbc641ffa2fa8aab6c5e9093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3c8b1f6f63489be43a077ffc5798d11') in 0.006568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example3/MoveCommand.cs
+  artifactKey: Guid(6640f3d189ff07f429337a511fb740f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example3/MoveCommand.cs using Guid(6640f3d189ff07f429337a511fb740f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69313e9599bf1b7d15f86e3964c1c83c') in 0.008495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/Example1/MementoExample1.cs
+  artifactKey: Guid(be4a9508eb34e414e92a27b8d6b64104) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/Example1/MementoExample1.cs using Guid(be4a9508eb34e414e92a27b8d6b64104) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da60b2edf3bbe71a1c65af08e613b2ec') in 0.006993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Example2/command pattern example 1.unity
+  artifactKey: Guid(3194668c3e6e318499a361b1a434b5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Example2/command pattern example 1.unity using Guid(3194668c3e6e318499a361b1a434b5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fd8ae5907739320a82625be5df32acf') in 0.003975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/Example1/TestMementoExample1.unity
+  artifactKey: Guid(a1d9692612aed704f9523ffb7643436f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/Example1/TestMementoExample1.unity using Guid(a1d9692612aed704f9523ffb7643436f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '232910675be5e1ec1f08aaf2b5916554') in 0.005222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Behavioral Patterns/Memento Pattern/README.md
+  artifactKey: Guid(1279ce79c1536934ca808844ab3f423d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Memento Pattern/README.md using Guid(1279ce79c1536934ca808844ab3f423d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40d6f755f208932411e573c10220e19c') in 0.005393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Behavioral Patterns/Command Pattern/Structure/TestCommandStructure.unity
+  artifactKey: Guid(a6fe8f56cf4ccaa4ebfcf4b22b9a7dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Command Pattern/Structure/TestCommandStructure.unity using Guid(a6fe8f56cf4ccaa4ebfcf4b22b9a7dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62eb7a32cf18cfe461e282c7e7b76b75') in 0.004904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple1/StatePatternExample1.unity
+  artifactKey: Guid(a73e314d4fcc30847b49d775f88b023a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple1/StatePatternExample1.unity using Guid(a73e314d4fcc30847b49d775f88b023a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c25b4a3348c3071d4be3d4de8a2bfe') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Behavioral Patterns/Interpreter Pattern/Example1/TestInterpreterExample1.unity
+  artifactKey: Guid(495d3860a8b49e44396a2a26726531fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Interpreter Pattern/Example1/TestInterpreterExample1.unity using Guid(495d3860a8b49e44396a2a26726531fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44877f50bc8cb4cee7efee7275a012ba') in 0.005228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Behavioral Patterns/Iterator Pattern/Structure/TestIteratorStructure.unity
+  artifactKey: Guid(6a52b71863b406944b66a018df4f6efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Iterator Pattern/Structure/TestIteratorStructure.unity using Guid(6a52b71863b406944b66a018df4f6efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0fcd325b689f4882679e476eb2e686e') in 0.005777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.073526 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple2/StateExmaple2.cs
+  artifactKey: Guid(227ac27dcb1aaad46be36c310ccde079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple2/StateExmaple2.cs using Guid(227ac27dcb1aaad46be36c310ccde079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42b63a2342f6b2362fb25cb779f43677') in 0.005792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Example2/StrategyPatternExample2.unity
+  artifactKey: Guid(e4ddda7ee406a2a418f7b3a6445aaa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Example2/StrategyPatternExample2.unity using Guid(e4ddda7ee406a2a418f7b3a6445aaa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1db33cebbb1aaebdafa8581bf05e9ae') in 0.005789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Creational Patterns/Prototype Pattern/Example2/PrototypePatternExample2.unity
+  artifactKey: Guid(970e2557e919c7c43999fb1de33c767a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Prototype Pattern/Example2/PrototypePatternExample2.unity using Guid(970e2557e919c7c43999fb1de33c767a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c8506c67e9402c46ad949748e1516db') in 0.006165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Game Programming Patterns/Component Pattern/Example/ComponentPatternExample.cs
+  artifactKey: Guid(3356a2598f3175246a66f7e309a3d1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Component Pattern/Example/ComponentPatternExample.cs using Guid(3356a2598f3175246a66f7e309a3d1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a50ee148fedefbf4eeb2efb939fe5525') in 0.007122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple4/DrivingState.cs
+  artifactKey: Guid(45a451955499c1942a7cd8312bc221eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple4/DrivingState.cs using Guid(45a451955499c1942a7cd8312bc221eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b5d57b9766a232a73bcb59ded154856') in 0.006911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Behavioral Patterns/Visitor Pattern/Structure/VisitorStructure.cs
+  artifactKey: Guid(fe7ea83153c83074e9d6992c3d418d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Visitor Pattern/Structure/VisitorStructure.cs using Guid(fe7ea83153c83074e9d6992c3d418d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46f095d9498b6f329980428233555168') in 0.006115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Creational Patterns/Singleton Pattern/Example3/SingletonPatternExample3.cs
+  artifactKey: Guid(7a7a0c1b39bba3d44b672799f3e8c171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Singleton Pattern/Example3/SingletonPatternExample3.cs using Guid(7a7a0c1b39bba3d44b672799f3e8c171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c3c520b50bfa839c9391df38b69eb15') in 0.006323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Exmaple1/StrategyPatternExample1.unity
+  artifactKey: Guid(51f35029052a3554892451f93391793d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Exmaple1/StrategyPatternExample1.unity using Guid(51f35029052a3554892451f93391793d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5650c022e7ee3a359ef418adcb583dd') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/FlashSpeed.cs
+  artifactKey: Guid(10eed03296f0bae468d1961a75bf2221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/FlashSpeed.cs using Guid(10eed03296f0bae468d1961a75bf2221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e3e099318f7b986ff10e229493ede52') in 0.007050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple4/StatePatternExample4.unity
+  artifactKey: Guid(af6e6711e82bae743ae9c7400739c23a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple4/StatePatternExample4.unity using Guid(af6e6711e82bae743ae9c7400739c23a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f03cf6bcf9fe5b244db6a0c694d4a3') in 0.007185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Game Programming Patterns/Dirty Flag Pattern/Example/DirtyFlagPatternExample.unity
+  artifactKey: Guid(6daed0e86ab3a2941b8f06a94f7d8375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Dirty Flag Pattern/Example/DirtyFlagPatternExample.unity using Guid(6daed0e86ab3a2941b8f06a94f7d8375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7674990e92a43519d7c36ab1495a747') in 0.005764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Creational Patterns/Builder Pattern/Structure/BuilderStructure.cs
+  artifactKey: Guid(c01188ee72b72ed4c8f202da5f38bf14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Builder Pattern/Structure/BuilderStructure.cs using Guid(c01188ee72b72ed4c8f202da5f38bf14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aabcd9647047e5aaa4e8b9378420fa2b') in 0.007478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Game Programming Patterns/Dirty Flag Pattern/Example/DirtyFlagPatternExample.cs
+  artifactKey: Guid(f110166623088b2489a0119210f8316b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Dirty Flag Pattern/Example/DirtyFlagPatternExample.cs using Guid(f110166623088b2489a0119210f8316b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf13347f924c07bd9909856e13e65828') in 0.007279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/NoCash.cs
+  artifactKey: Guid(80a97c16accf18743bb3e47046946b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/NoCash.cs using Guid(80a97c16accf18743bb3e47046946b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5707b40b5bd3931a96e240207a376e80') in 0.006550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Creational Patterns/Prototype Pattern/Example1/PrototypePatternExample1.cs
+  artifactKey: Guid(18c7c8d7959e53c4897019015897f15d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Prototype Pattern/Example1/PrototypePatternExample1.cs using Guid(18c7c8d7959e53c4897019015897f15d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '375d7210afa27f9bae877353fb344f51') in 0.007495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Creational Patterns/Factory Method Pattern/Example1/FactoryMethodPatternExample1.unity
+  artifactKey: Guid(b7607c05d932ca841a4ddeca8bccc361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Factory Method Pattern/Example1/FactoryMethodPatternExample1.unity using Guid(b7607c05d932ca841a4ddeca8bccc361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '441f1e664bceef9adf6e5af9a9e6237a') in 0.006204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Creational Patterns/Factory Method Pattern/Example1/FactoryMethodPatternExample1.cs
+  artifactKey: Guid(7e11083f9d559404fa387aede8b3f297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Factory Method Pattern/Example1/FactoryMethodPatternExample1.cs using Guid(7e11083f9d559404fa387aede8b3f297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '293f8d9857dd2dddc4f60fc6bbeb8c5d') in 0.006537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Example2/StrategyPatternExample2.cs
+  artifactKey: Guid(54f761ea0a5bea84bb679f1105b0f0ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Example2/StrategyPatternExample2.cs using Guid(54f761ea0a5bea84bb679f1105b0f0ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd910cff0aa6dbe0324e1f24df346e030') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/ATMMachine.cs
+  artifactKey: Guid(35e22a6e0e7d03e4788d386ecf1b23db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/ATMMachine.cs using Guid(35e22a6e0e7d03e4788d386ecf1b23db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd325b7c01fd5b74c2d8ef41505b6c4cb') in 0.006089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple4/DuckingState.cs
+  artifactKey: Guid(96c2b6b0fcf9daa48888eda1b7ac1963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple4/DuckingState.cs using Guid(96c2b6b0fcf9daa48888eda1b7ac1963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4f8d90ee21f484b2878694a89b629be') in 0.006269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Example2/BadCodeExample.cs
+  artifactKey: Guid(8c11dd36074e7864ab783dfc5067f0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Example2/BadCodeExample.cs using Guid(8c11dd36074e7864ab783dfc5067f0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03d7246b6f2acac83be867d3a04061bb') in 0.007830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/TestATMMachine.cs
+  artifactKey: Guid(a88af67aa7b4df1409666f65c561bb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/TestATMMachine.cs using Guid(a88af67aa7b4df1409666f65c561bb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de6fb0e2814f7649e09a91f268bcdbc0') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Game Programming Patterns/Data Locality Pattern/Example/DataLocalityPatternExample.cs
+  artifactKey: Guid(3d7c6012c0976734fbaa31199b3e2bdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Data Locality Pattern/Example/DataLocalityPatternExample.cs using Guid(3d7c6012c0976734fbaa31199b3e2bdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12d7e8fb322760c9eb1681676f21064d') in 0.005877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Creational Patterns/Abstract Factory Pattern/Structure/TestAbstractFactoryStructrue.unity
+  artifactKey: Guid(024603f2db65f2e46a0ea4a1b7fbea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Abstract Factory Pattern/Structure/TestAbstractFactoryStructrue.unity using Guid(024603f2db65f2e46a0ea4a1b7fbea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd1ca137dbb7ab93d2932d96c14b904c') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Creational Patterns/Singleton Pattern/Structure/SingletonStructure.cs
+  artifactKey: Guid(59916ed9e320d8e4db0c000604480536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Singleton Pattern/Structure/SingletonStructure.cs using Guid(59916ed9e320d8e4db0c000604480536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd274377054ebded42440200cc4af4f3f') in 0.006007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game Programming Patterns/Event Queue Pattern/Example2/EventQueuePatternExample2.unity
+  artifactKey: Guid(a446f67adebaab8408b8101a22b3bf2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Event Queue Pattern/Example2/EventQueuePatternExample2.unity using Guid(a446f67adebaab8408b8101a22b3bf2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d3cab287f820c577fbe0363f9a9ab5c') in 0.004867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Game Programming Patterns/Event Queue Pattern/Example/EventQueue.cs
+  artifactKey: Guid(0b4ff23a1c309c641800b9690e4222fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Event Queue Pattern/Example/EventQueue.cs using Guid(0b4ff23a1c309c641800b9690e4222fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e0001e3df71991e26facfa1370a1461') in 0.005528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Game Programming Patterns/Data Locality Pattern/Example/DataLocalityPatternExample.unity
+  artifactKey: Guid(f8e30d626da11e541a7e36804dc2d1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Data Locality Pattern/Example/DataLocalityPatternExample.unity using Guid(f8e30d626da11e541a7e36804dc2d1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '500c7dfea01a87872fe6309ae6b4a9b0') in 0.005576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Creational Patterns/Singleton Pattern/Example2/SingletonPatternExample2.cs
+  artifactKey: Guid(7f06bd17dbf5c7c45ade1374648465a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Singleton Pattern/Example2/SingletonPatternExample2.cs using Guid(7f06bd17dbf5c7c45ade1374648465a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18a33ddcfbd37407bab8e587e0b1cb2b') in 0.006518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Creational Patterns/Singleton Pattern/Example2/SingletonPatternExample2.unity
+  artifactKey: Guid(ccddb4a4c121ad64b943d1bdbb47b5dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Singleton Pattern/Example2/SingletonPatternExample2.unity using Guid(ccddb4a4c121ad64b943d1bdbb47b5dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86a20bb72ebcca02a6924ce16262e238') in 0.004817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creational Patterns/Builder Pattern/Example2/BuilderPatternExample2.cs
+  artifactKey: Guid(175c517bfde1f5e42af089ab255c6478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Builder Pattern/Example2/BuilderPatternExample2.cs using Guid(175c517bfde1f5e42af089ab255c6478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26a268dec5e0a077f76a3037e95f7836') in 0.008009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Game Programming Patterns/Component Pattern/Example/ComponentPatternExample.unity
+  artifactKey: Guid(b66814b3f07e2f84f9180edc43db32ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Component Pattern/Example/ComponentPatternExample.unity using Guid(b66814b3f07e2f84f9180edc43db32ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c77b1dcf207186aa0fc264ada722a5fd') in 0.004177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/NoCard.cs
+  artifactKey: Guid(f55758baf4924bb44a879e67bd1ce9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/NoCard.cs using Guid(f55758baf4924bb44a879e67bd1ce9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6203a597f7a77abecdbd7d5a5e05746e') in 0.005070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/HasCard.cs
+  artifactKey: Guid(cd7f3f391d8bb584a8a076b7811eb838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/HasCard.cs using Guid(cd7f3f391d8bb584a8a076b7811eb838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ade0583549b277c5e8eff35132a5df52') in 0.005052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/SuperPower.cs
+  artifactKey: Guid(e170a1e3c2b695e4a8cff91bd998159b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/SuperPower.cs using Guid(e170a1e3c2b695e4a8cff91bd998159b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3690cea44d83381930da8b29dd3d3a6a') in 0.006834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Structure/StateStructure.cs
+  artifactKey: Guid(d98c60aa3788e8d42adb4ccae29b78ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Structure/StateStructure.cs using Guid(d98c60aa3788e8d42adb4ccae29b78ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9874a5ee5f79c72ef90b572b9719d26') in 0.007700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Creational Patterns/Abstract Factory Pattern/Example1/AbstractFactoryPatternExample1.cs
+  artifactKey: Guid(4242511faea71044f9d39d369ff932a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Abstract Factory Pattern/Example1/AbstractFactoryPatternExample1.cs using Guid(4242511faea71044f9d39d369ff932a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '764a32d45ea25f963ee314ce2724a0e9') in 0.006563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/TestSubclassSandbox.cs
+  artifactKey: Guid(9a0df17e42ee07d4e9f17b3f0056d08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/SubclassSandbox Pattern/Example/TestSubclassSandbox.cs using Guid(9a0df17e42ee07d4e9f17b3f0056d08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5872db4b2d38abaa3097488f7f64928') in 0.005659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Creational Patterns/Abstract Factory Pattern/Example2/AbstractFactoryPatternExample2.unity
+  artifactKey: Guid(26b0d6b2a23f2874a95012f97755acd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Abstract Factory Pattern/Example2/AbstractFactoryPatternExample2.unity using Guid(26b0d6b2a23f2874a95012f97755acd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65fe957017c1c3d32dbfb420ce7207b4') in 0.004118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Exmaple1/StrategyPatternExample1.cs
+  artifactKey: Guid(0d937fb527531dd4e838573f6bb7ddf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Exmaple1/StrategyPatternExample1.cs using Guid(0d937fb527531dd4e838573f6bb7ddf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dc2d700d0c9e22d22cef7f33e95c126') in 0.005493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Behavioral Patterns/Visitor Pattern/Exmaple2/VisitorPatternExample2.cs
+  artifactKey: Guid(d6d27e4bc3491f74ea9b5563b36df569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Visitor Pattern/Exmaple2/VisitorPatternExample2.cs using Guid(d6d27e4bc3491f74ea9b5563b36df569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f57d9e2c7b162a596bd0b5a7488b96ac') in 0.005841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Creational Patterns/Factory Method Pattern/Structure/FactoryMethodStructure.cs
+  artifactKey: Guid(6bf2ad14b2687cf4c9872da0c05080db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Factory Method Pattern/Structure/FactoryMethodStructure.cs using Guid(6bf2ad14b2687cf4c9872da0c05080db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdce5e906dc133a161e5cfa60af383fd') in 0.006589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Behavioral Patterns/Template Method Pattern/Exmaple1/TemplateMethodPatternExample1.unity
+  artifactKey: Guid(adcbb6543e040364db722b96f5002700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Template Method Pattern/Exmaple1/TemplateMethodPatternExample1.unity using Guid(adcbb6543e040364db722b96f5002700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2fa12eee9428d5b57b25ae91439a9ec') in 0.005287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple5/StatePatternExample5.cs
+  artifactKey: Guid(f06ce0ab55cd733479861ba81b9abda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple5/StatePatternExample5.cs using Guid(f06ce0ab55cd733479861ba81b9abda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ebe32e54423306c279a24d95824c4e4') in 0.006456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game Programming Patterns/Game Loop Pattern/Example/GameLoopPatternExample.cs
+  artifactKey: Guid(303690f82722c63478167e651bd7d134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Game Loop Pattern/Example/GameLoopPatternExample.cs using Guid(303690f82722c63478167e651bd7d134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd9f9461ef63c23ead21b1496ca867b4') in 0.005752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Creational Patterns/Prototype Pattern/Example2/PrototypePatternExample2.cs
+  artifactKey: Guid(ca7ca7f7e45fd464293564100181140a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Prototype Pattern/Example2/PrototypePatternExample2.cs using Guid(ca7ca7f7e45fd464293564100181140a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e25e92695efb6625eb360fb7200897b5') in 0.005827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Creational Patterns/Builder Pattern/Example2/BuilderPatternExample2.unity
+  artifactKey: Guid(16dbba2c2f2ecd54ca40c1a4a0619999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Builder Pattern/Example2/BuilderPatternExample2.unity using Guid(16dbba2c2f2ecd54ca40c1a4a0619999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9db43083e3b81302295daef6f786d4b6') in 0.003938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Behavioral Patterns/State Pattern/Exmaple3/HasPin.cs
+  artifactKey: Guid(e28456f14f0c84c4b997d01bde5b9804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/State Pattern/Exmaple3/HasPin.cs using Guid(e28456f14f0c84c4b997d01bde5b9804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfae8052e9243a2220da4f2aef9a612b') in 0.005180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Creational Patterns/Factory Method Pattern/Example2/FactoryMethodPatternExample2.unity
+  artifactKey: Guid(5eee6957e341a5440b1a43d43bdb0761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Factory Method Pattern/Example2/FactoryMethodPatternExample2.unity using Guid(5eee6957e341a5440b1a43d43bdb0761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f603f624ed96753fbc9d29503eb93bd0') in 0.005621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Creational Patterns/Prototype Pattern/Example1/PrototypePatternExample1.unity
+  artifactKey: Guid(970f656b1ec32a34298d99e40ba56131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Prototype Pattern/Example1/PrototypePatternExample1.unity using Guid(970f656b1ec32a34298d99e40ba56131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11e3b5bc62ef182b3c83c0474d5003fb') in 0.005832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Behavioral Patterns/Strategy Pattern/Structure/StrategyStructure.cs
+  artifactKey: Guid(f28d23f10ec1e9246a9b35f24a6fc00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behavioral Patterns/Strategy Pattern/Structure/StrategyStructure.cs using Guid(f28d23f10ec1e9246a9b35f24a6fc00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ab11c49ef71881debea1307535a4b0a') in 0.006783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/README.md
+  artifactKey: Guid(78cf6f3a0ee44084392555077cc6a56d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/README.md using Guid(78cf6f3a0ee44084392555077cc6a56d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcd01d5eede772dc1d887cca577a504c') in 0.005805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Creational Patterns/Singleton Pattern/Example1/SingletonPatternExample1.unity
+  artifactKey: Guid(4ac423d1ff9f64b4084056da099cff18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creational Patterns/Singleton Pattern/Example1/SingletonPatternExample1.unity using Guid(4ac423d1ff9f64b4084056da099cff18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72fe87c09158f0616fafd48e8f33338e') in 0.006498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Game Programming Patterns/Service Locator Pattern/Example/ServiceLocatorPatternExample.unity
+  artifactKey: Guid(c4ad4d65234bc1f47a02c840973af452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Service Locator Pattern/Example/ServiceLocatorPatternExample.unity using Guid(c4ad4d65234bc1f47a02c840973af452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ffc2059431b1f1f2e5e11cb7799a389') in 0.005309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.350907 seconds.
+  path: Assets/Structural Patterns/Adapter Pattern/Exmaple1/AdapterPatternExample1.unity
+  artifactKey: Guid(3634181dfa2d0f34cbf6f1f8f712fed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Adapter Pattern/Exmaple1/AdapterPatternExample1.unity using Guid(3634181dfa2d0f34cbf6f1f8f712fed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea0b33bd2e95da05ae4f6c028620b730') in 0.004379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Structural Patterns/Flyweight Pattern/Exmaple1/FlyweightPatternExample1.unity
+  artifactKey: Guid(7e3ba5b70c9907240b31163e382f1157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Flyweight Pattern/Exmaple1/FlyweightPatternExample1.unity using Guid(7e3ba5b70c9907240b31163e382f1157) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44bdfa441fc41f2239ee7ce7d1fac9ac') in 0.005367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Game Programming Patterns/Event Queue Pattern/Example3/Scripts/EventManger.cs
+  artifactKey: Guid(1a4429c5ba895f745ae2c0a162db6dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Event Queue Pattern/Example3/Scripts/EventManger.cs using Guid(1a4429c5ba895f745ae2c0a162db6dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53f5a3502079dfcf0aee87f79cd9c47c') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/Model/polygonSphere.asset
+  artifactKey: Guid(5472b184decf70e4a93de4bb61864ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/Model/polygonSphere.asset using Guid(5472b184decf70e4a93de4bb61864ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4164435b9196bf4906edf333dfa15fc') in 0.010524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Structural Patterns/Decorator Pattern/Exmaple2/DecoratorPatternExample2.cs
+  artifactKey: Guid(4657ecf6e31d6ac4b947e06c8fe27178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Decorator Pattern/Exmaple2/DecoratorPatternExample2.cs using Guid(4657ecf6e31d6ac4b947e06c8fe27178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a38f72db1676dd6f06e22ecb540f3236') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolManager.cs
+  artifactKey: Guid(7923edcf213b37449a472421ad1dc23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolManager.cs using Guid(7923edcf213b37449a472421ad1dc23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f55e016365b6d8110b064bb1caed035') in 0.006262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Structural Patterns/Facade Pattern/Exmaple1/FacadePatternExample1.unity
+  artifactKey: Guid(d1e8995b3195e9f41bcb46f06b735286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Facade Pattern/Exmaple1/FacadePatternExample1.unity using Guid(d1e8995b3195e9f41bcb46f06b735286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a37d0ce846b5b9555494e549eef6dec1') in 0.004991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Structural Patterns/Decorator Pattern/Structure/DecoratorStructure.cs
+  artifactKey: Guid(26f3b388537f98449a6db2b64d1af60f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Decorator Pattern/Structure/DecoratorStructure.cs using Guid(26f3b388537f98449a6db2b64d1af60f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac80981ff518dc1350d76de0d7c9e874') in 0.006128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Structural Patterns/Facade Pattern/Structure/TestFacadeStructure.unity
+  artifactKey: Guid(fdae0424d0055d6428835560167316fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Facade Pattern/Structure/TestFacadeStructure.unity using Guid(fdae0424d0055d6428835560167316fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0658f371b9a37254654cd258ccf0361') in 0.007166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/README.md
+  artifactKey: Guid(3a234c806a7ca3f4294d37e225986e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/README.md using Guid(3a234c806a7ca3f4294d37e225986e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd9fc476f822daa9071790f36aff307') in 0.006673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Structural Patterns/Proxy Pattern/Structure/ProxyStructure.cs
+  artifactKey: Guid(84158e269a5be584e96fde26eaa74f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Proxy Pattern/Structure/ProxyStructure.cs using Guid(84158e269a5be584e96fde26eaa74f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d108b054df6e1c5fbccf6f898c04aab') in 0.006022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Structural Patterns/Proxy Pattern/Structure/TestProxyStructure.unity
+  artifactKey: Guid(799e2b58574bc784eadc43a48d58fbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Proxy Pattern/Structure/TestProxyStructure.unity using Guid(799e2b58574bc784eadc43a48d58fbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c19a424b4cf9f7f0047f3266eae25aca') in 0.004272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Structural Patterns/Flyweight Pattern/Exmaple1/FlyweightPatternExample1.cs
+  artifactKey: Guid(4247c59b7e2801f4996a9c73c1ff553f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Flyweight Pattern/Exmaple1/FlyweightPatternExample1.cs using Guid(4247c59b7e2801f4996a9c73c1ff553f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e505cc59145e768c7fb17b6bd960365d') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Structural Patterns/Facade Pattern/Exmaple2/FacadePatternExample2.unity
+  artifactKey: Guid(6011f0ae75b5e7246a791960df38ae5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Facade Pattern/Exmaple2/FacadePatternExample2.unity using Guid(6011f0ae75b5e7246a791960df38ae5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c61be47f913454989896a1ebafb6e47') in 0.004264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Structural Patterns/Decorator Pattern/Structure/TestDecoratorStructure.unity
+  artifactKey: Guid(1e1fe2243dff01246822c39e3cf61c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Decorator Pattern/Structure/TestDecoratorStructure.unity using Guid(1e1fe2243dff01246822c39e3cf61c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54bcdfdd629b58b5330d2af5b9d1616e') in 0.004159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/Material/Plane.mat
+  artifactKey: Guid(7af618ba2ff2b9240bd56f1882c72dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/Material/Plane.mat using Guid(7af618ba2ff2b9240bd56f1882c72dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '291bc0a2802d7b16913ecbae943bf6dd') in 0.080770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Structural Patterns/Composite Pattern/Exmaple1/CompositePatternExample1.unity
+  artifactKey: Guid(c728510a820bb0f41ae0759105950e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Composite Pattern/Exmaple1/CompositePatternExample1.unity using Guid(c728510a820bb0f41ae0759105950e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8525bc02801b893c40124f178c74b903') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Structural Patterns/Adapter Pattern/Structure/TestAdapterStructure.unity
+  artifactKey: Guid(85304e4e668f9e347bb41d291c7b390c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Adapter Pattern/Structure/TestAdapterStructure.unity using Guid(85304e4e668f9e347bb41d291c7b390c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a8db54cfd22f12423c024777a587511') in 0.005495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Structural Patterns/Decorator Pattern/Exmaple1/DecoratorPatternExample1.cs
+  artifactKey: Guid(3867b2da7ff596a47a0cd1f1fc23b54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Decorator Pattern/Exmaple1/DecoratorPatternExample1.cs using Guid(3867b2da7ff596a47a0cd1f1fc23b54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4b47e1b47d09398da56748ef1c33590') in 0.006658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Structural Patterns/Proxy Pattern/Exmaple1/ProxyPatternExample1.cs
+  artifactKey: Guid(6a6558bdcebd3bf449f8970a3098821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Proxy Pattern/Exmaple1/ProxyPatternExample1.cs using Guid(6a6558bdcebd3bf449f8970a3098821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46c0893469e5ccbfd7be77b7ca1b0b28') in 0.006706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Structural Patterns/Bridge Pattern/Exmaple1/BridgePatternExample1.cs
+  artifactKey: Guid(0ab6147e35a75e641ba51bc30b359fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Bridge Pattern/Exmaple1/BridgePatternExample1.cs using Guid(0ab6147e35a75e641ba51bc30b359fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89d2a91f731f02b91baf346cd824ff63') in 0.006269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Structural Patterns/Adapter Pattern/Exmaple2/AdapterPatternExample2.unity
+  artifactKey: Guid(d785892aa7d671b4db0aa1284ca42096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Adapter Pattern/Exmaple2/AdapterPatternExample2.unity using Guid(d785892aa7d671b4db0aa1284ca42096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5ef808a5e01b795de43f43d4d4ef24d') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Structural Patterns/Bridge Pattern/Exmaple1/BridgePatternExample1.unity
+  artifactKey: Guid(96c812479bd7b8843868ac6c90233149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Bridge Pattern/Exmaple1/BridgePatternExample1.unity using Guid(96c812479bd7b8843868ac6c90233149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '071141b09b5745a6c0d2e17a41f1ee68') in 0.006740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Structural Patterns/Composite Pattern/Structure/CompositeStructure.cs
+  artifactKey: Guid(db61a4cb7eb5b184a8c0646f9494bdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Composite Pattern/Structure/CompositeStructure.cs using Guid(db61a4cb7eb5b184a8c0646f9494bdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c0f8e76fffa4d70ca02a5efe031832f') in 0.006091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Structural Patterns/Composite Pattern/Structure/TestCompositeStructure.unity
+  artifactKey: Guid(1a257837ecd78a446bc4553316963939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Composite Pattern/Structure/TestCompositeStructure.unity using Guid(1a257837ecd78a446bc4553316963939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '150222b016ab94c04ca3010677aa5e3c') in 0.004728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Structural Patterns/Flyweight Pattern/Exmaple2/FlyweightPatternExample2.unity
+  artifactKey: Guid(9edd0c980566ed042898f3efa2b74957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Structural Patterns/Flyweight Pattern/Exmaple2/FlyweightPatternExample2.unity using Guid(9edd0c980566ed042898f3efa2b74957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '175eb13f4c4c167f1d3710fc7824486a') in 0.004540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolObject.cs
+  artifactKey: Guid(0b4144ee959c80a469435c9eed4f0a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Game Programming Patterns/Object Pool Pattern/Example/Script/Core/PoolObject.cs using Guid(0b4144ee959c80a469435c9eed4f0a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0920e75e1f0f58d54ec09baf8ed77f7') in 0.007549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3011.
+Memory consumption went from 60.1 MB to 60.1 MB.
+Total: 8.993100 ms (FindLiveObjects: 0.230500 ms CreateObjectMapping: 0.182400 ms MarkObjects: 8.542800 ms  DeleteObjects: 0.034700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
